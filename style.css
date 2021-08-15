@@ -1,0 +1,107 @@
+ h1{
+    color:blueviolet;
+    text-shadow: 2px 2px lightseagreen;
+}
+h3{
+    color:blueviolet
+}
+.Header{
+    display:flex;
+    flex-direction: column;
+    border:solid;
+   align-items: center;
+   background-image: radial-gradient(circle,yellow, peachpuff);
+
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    border:solid;
+    padding: 30px;
+
+     justify-content: space-between;
+    background-image: radial-gradient(circle, springgreen,seagreen);
+}
+.grid2{
+    display: flex;
+    flex-direction: row;
+    border:solid;
+padding:30px;
+    justify-content: space-between;
+    background-image: radial-gradient(circle, magenta,white);
+}
+
+.cake{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    align-items: center;
+    background-image: radial-gradient(circle, goldenrod,saddlebrown,burlywood);
+    
+}
+
+.fruit{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    align-items: center;
+    background-image: radial-gradient(circle,red, crimson, orange);
+}
+
+.pudding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:solid;
+    background-image: radial-gradient(circle,burlywood,saddlebrown,goldenrod);
+}
+
+.maggie{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    align-items: center;
+    background-image: radial-gradient(circle,gold,darkorange);
+}
+
+.slushy{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    align-items: center;
+    background-image: radial-gradient(circle,green,lightgreen,darkgreen);
+}
+
+.pasta{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    align-items: center;
+    background-image: radial-gradient(circle,white, gray);
+
+}
+.pasta:hover{
+transform: scale(1.2);
+}
+.slushy:hover{
+    transform: scale(1.2);
+    }
+.maggie:hover{
+ transform: scale(1.2);
+ }
+ .pudding:hover{
+    transform: scale(1.2);
+    }
+    .fruit:hover{
+        transform: scale(1.2);
+        }
+        .cake:hover{
+            transform: scale(1.2);
+            }
+a:link{
+    color: red;
+}
+a:visited{
+    color:blueviolet;
+}
